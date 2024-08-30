@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center; /* Centraliza o contêiner flexível horizontalmente na página */
+    align-items: center; /* Centraliza o contêiner flexível verticalmente na página */
+    height: 100vh; /* Altura da visualização para centralizar verticalmente */
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around; /* Distribui o espaço igualmente entre as caixas */
+    align-items: center; /* Alinha as caixas verticalmente no centro do contêiner */
+    width: 80%; /* Ajuste a largura do contêiner conforme necessário */
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
